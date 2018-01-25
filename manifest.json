@@ -10,9 +10,16 @@
 	"content_scripts":[
 		{
 			"matches": [
-				"*://www.twitch.tv/*"
+				"*://www.twitch.tv/boxbox",
+				"*://www.twitch.tv/lilypichu"
 				],
 			"js":["content.js"]
 		}
-	]
+	],
+	"background":{
+		"scripts":["background.js"],
+		"persistent":false
+		},
+	"permissions":["tabs"],
+	"incognito": "spanning"
 }
