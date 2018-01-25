@@ -1,7 +1,12 @@
 {
 	"manifest_version": 2,
 	"name": "Trivia Conartist",
+	"description": "Auto answers Boxboxbot's trivia questions in boxbox's stream",
 	"version": "0.0.1",
+	"browser_action":{
+		"default_icon": "icon19.png",
+		"default_title": "Trivia Conartist: Extension works on www.twitch.tv/boxbox automatiaclly. Right click to hide this icon."
+	},
 	"content_scripts":[
 		{
 			"matches": [
