@@ -20,6 +20,6 @@
 		"scripts":["background.js"],
 		"persistent":false
 		},
-	"permissions":["tabs","storage"],
+	"permissions":["tabs","storage","idle","notifications"],
 	"incognito": "spanning"
 }
