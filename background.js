@@ -1,4 +1,4 @@
-alert("Background.js is now running!");
+alert("Background.js is now running!/");
 
 /*
 var opt = {
