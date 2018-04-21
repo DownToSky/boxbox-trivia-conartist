@@ -1,4 +1,6 @@
+alert("Background.js is now running!");
 
+/*
 var opt = {
   type: "basic",
   title: "notifications!",
@@ -9,6 +11,7 @@ chrome.notifications.create(opt, callback);
 function callback(){
 	console.log("Popup don!");
 }
+*/
 
 /*
 chrome.tabs.query({}, function printTitles(tabs){
