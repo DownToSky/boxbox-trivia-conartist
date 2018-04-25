@@ -11,9 +11,19 @@
 		{
 			"matches": [
 				"*://www.twitch.tv/boxbox",
-				"*://www.twitch.tv/lilypichu"
+				"*://www.twitch.tv/boxbox/clips",
+				"*://www.twitch.tv/boxbox/events",
+				"*://www.twitch.tv/boxbox/followers",
+				"*://www.twitch.tv/boxbox/following",
+				"*://www.twitch.tv/boxbox/videos/*"
 				],
 			"js":["content.js"]
+		},
+		{
+			"matches": [
+				"*://www.twitch.tv/downtosky"
+				],
+			"js":["test.js"]
 		}
 	],
 	"background":{
